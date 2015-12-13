@@ -21,6 +21,7 @@
 		376CDDB51C1D525A005DB2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376CDD971C1D525A005DB2E2 /* UIKit.framework */; };
 		376CDDBD1C1D525B005DB2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 376CDDBB1C1D525B005DB2E2 /* InfoPlist.strings */; };
 		376CDDBF1C1D525B005DB2E2 /* tableViewTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 376CDDBE1C1D525B005DB2E2 /* tableViewTest1Tests.m */; };
+		376CDDCA1C1D6195005DB2E2 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 376CDDC91C1D6195005DB2E2 /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		376CDDBA1C1D525B005DB2E2 /* tableViewTest1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tableViewTest1Tests-Info.plist"; sourceTree = "<group>"; };
 		376CDDBC1C1D525B005DB2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		376CDDBE1C1D525B005DB2E2 /* tableViewTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewTest1Tests.m; sourceTree = "<group>"; };
+		376CDDC81C1D6195005DB2E2 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		376CDDC91C1D6195005DB2E2 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		376CDD991C1D525A005DB2E2 /* tableViewTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				376CDDC81C1D6195005DB2E2 /* UIImage+Color.h */,
+				376CDDC91C1D6195005DB2E2 /* UIImage+Color.m */,
 				376CDDA21C1D525A005DB2E2 /* TWAppDelegate.h */,
 				376CDDA31C1D525A005DB2E2 /* TWAppDelegate.m */,
 				376CDDA51C1D525A005DB2E2 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376CDDA01C1D525A005DB2E2 /* main.m in Sources */,
+				376CDDCA1C1D6195005DB2E2 /* UIImage+Color.m in Sources */,
 				376CDDA41C1D525A005DB2E2 /* TWAppDelegate.m in Sources */,
 				376CDDAA1C1D525A005DB2E2 /* TWViewController.m in Sources */,
 			);
